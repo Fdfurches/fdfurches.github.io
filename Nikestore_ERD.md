@@ -1,4 +1,4 @@
-```mermaid
+ ```mermaid
 erDiagram
 PRODUCT ||--|{ SALE : for
 PRODUCT {
@@ -10,7 +10,7 @@ CUSTOMER {
     string cardnumber  
 }
 SALE ||--|{ INVENTORY : Changes
-SALE {
+SALE { 
     string serialnumber
     string cardnumber
 } 
@@ -18,4 +18,5 @@ INVENTORY ||--|{ PRODUCT : Order
 INVENTORY {
     string serialnumber
 }
-CUSTOMER ||--o{ SALE : info 
+CUSTOMER ||--o{ SALE : info
+```
