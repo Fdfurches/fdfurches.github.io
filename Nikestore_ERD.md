@@ -18,4 +18,4 @@ INVENTORY ||--|{ PRODUCT : Order
 INVENTORY {
     string serialnumber
 }
-CUSTOMER ||--o{ SALE : info
+CUSTOMER ||--o{ SALE : info 
